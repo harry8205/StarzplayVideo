@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dimen_0dp">0dp</dimen>
+    <dimen name="dimen_5dp">5dp</dimen>
+    <dimen name="dimen_3dp">3dp</dimen>
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="dimen_9dp">9dp</dimen>
+    <dimen name="dimen_8sp">8sp</dimen>
+    <dimen name="dimen_10dp">10dp</dimen>
+    <dimen name="dimen_11dp">11dp</dimen>
+    <dimen name="dimen_15dp">15dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+    <dimen name="dimen_30dp">30dp</dimen>
+    <dimen name="dimen_40dp">40dp</dimen>
+
+
+    <dimen name="dimen_12sp">12sp</dimen>
+    <dimen name="dimen_13sp">13sp</dimen>
+    <dimen name="dimen_14sp">14sp</dimen>
+    <dimen name="dimen_15sp">15sp</dimen>
+    <dimen name="dimen_16sp">16sp</dimen>
+    <dimen name="dimen_17sp">17sp</dimen>
+    <dimen name="dimen_18sp">18sp</dimen>
+    <dimen name="dimen_19sp">19sp</dimen>
+    <dimen name="dimen_20sp">20sp</dimen>
+    <dimen name="dimen_21sp">21sp</dimen>
+    <dimen name="dimen_23sp">23sp</dimen>
+    <dimen name="dimen_22sp">22sp</dimen>
+
+    <dimen name="btn_txt_size">20sp</dimen>
+    <dimen name="min_heigh">400dp</dimen>
+    <dimen name="dimen_200dp">200dp</dimen>
+    <dimen name="dimen_210dp">210dp</dimen>
+    <dimen name="dimen_79dp">79dp</dimen>
+    <dimen name="dimen_45dp">45dp</dimen>
+    <dimen name="dimen_25dp">25dp</dimen>
+    <dimen name="dimen_36dp">36dp</dimen>
+    <dimen name="dimen_35dp">35dp</dimen>
+    <dimen name="dimen_290dp">290dp</dimen>
+    <dimen name="dimen_90dp">90dp</dimen>
+    <dimen name="dimen_100dp">100dp</dimen>
+    <dimen name="dimen_28sp">28sp</dimen>
+    <dimen name="dimen_300dp">300dp</dimen>
+    <dimen name="dimen_17dp">17dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_70dp">70dp</dimen>
+    <dimen name="dimen_32dp">32dp</dimen>
+    <dimen name="dimen_26dp">26dp</dimen>
+    <dimen name="dimen_12dp">12dp</dimen>
+    <dimen name="dimen_48dp">48dp</dimen>
+    <dimen name="dimen_24dp">24dp</dimen>
+    <dimen name="dimen_47dp">47dp</dimen>
+    <dimen name="dimen_60dp">60dp</dimen>
+    <dimen name="dimen_1dp">0.5dp</dimen>
+    <dimen name="dimen_2dp">2dp</dimen>
+    <dimen name="dimen_80dp">80dp</dimen>
+    <dimen name="dimen_30sp">30sp</dimen>
+    <dimen name="dimen_250dp">250dp</dimen>
+    <dimen name="dimen_320dp">320dp</dimen>
+    <dimen name="dimen_280dp">280dp</dimen>
+    <dimen name="dimen_180dp">180dp</dimen>
+    <dimen name="dimen_260dp">260dp</dimen>
+    <dimen name="dimen_160dp">160dp</dimen>
+    <dimen name="dimen_24sp">24sp</dimen>
+    <dimen name="dimen_240dp">240dp</dimen>
+    <dimen name="dimen_26sp">26sp</dimen>
+    <dimen name="dimen_14dp">14dp</dimen>
+    <dimen name="dimen_50dp">50dp</dimen>
+    <dimen name="dimen_18dp">18dp</dimen>
+    <dimen name="dimen_270dp">270dp</dimen>
+    <dimen name="dimen_230dp">230dp</dimen>
+
+    <dimen name="dimen_dot_size">25dp</dimen>
+    <dimen name="dimen_400dp">400dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="dimen_120dp">120dp</dimen>
+    <dimen name="dimen_6dp">6dp</dimen>
+    <dimen name="dimen_380dp">380dp</dimen>
+
+    <dimen name="sample_ic_size">20dp</dimen>
+    <dimen name="sample_txt_size">15sp</dimen>
+    <dimen name="desc_txt_size">13sp</dimen>
+    <dimen name="desc_top_txt_size">15sp</dimen>
+    <dimen name="simple_txt_size">12sp</dimen>
+    <dimen name="simple_txt_size_tab">14sp</dimen>
+    <dimen name="sample_bold_txt_size">15sp</dimen>
+    <dimen name="sample_bold_txt_size_tab">17sp</dimen>
+    <dimen name="sample_heading_txt_size">20sp</dimen>
+    <dimen name="sample_heading_txt_size_tab">30sp</dimen>
+    <dimen name="sample_main_heading_txt_size">24sp</dimen>
+    <dimen name="sample_sub_heading_txt_size">16sp</dimen>
+    <dimen name="sample_sub_heading_txt_size_tab">22sp</dimen>
+    <dimen name="sample_title_txt_size">16sp</dimen>
+    <dimen name="sample_point_txt_size">24sp</dimen>
+    <dimen name="sample_tagline_txt_size">13sp</dimen>
+    <dimen name="sample_margin">10dp</dimen>
+    <dimen name="simple_no_margin">2dp</dimen>
+    <dimen name="dimen_75dp">75dp</dimen>
+    <dimen name="dimen_420dp">420dp</dimen>
+    <dimen name="dimen_150dp">150dp</dimen>
+
+    <!-- Fit chart dimens -->
+    <dimen name="default_stroke_size">18dp</dimen>
+    <dimen name="dimen_130dp">130dp</dimen>
+    <dimen name="dimen_220dp">220dp</dimen>
+    <dimen name="dimen_40sp">40sp</dimen>
+    <dimen name="dimen_11sp">11sp</dimen>
+    <dimen name="dimen_10sp">10sp</dimen>
+    <dimen name="dimen_140dp">140dp</dimen>
+    <dimen name="dimen_145dp">145dp</dimen>
+    <dimen name="dimen_35d0dp">350dp</dimen>
+    <dimen name="dimen_22dp">22dp</dimen>
+    <dimen name="dimen_370dp">370dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dimen_80sp">80sp</dimen>
+    <dimen name="dimen_170dp">170dp</dimen>
+    <dimen name="dimen_7dp">7dp</dimen>
+    <dimen name="dimen_110dp">110dp</dimen>
+    <dimen name="dimen_65dp">65dp</dimen>
+    <dimen name="dimen_350dp">350dp</dimen>
+    <dimen name="dimen_2_and_half_dp">2.5dp</dimen>
+    <dimen name="dimen_m5">-5</dimen>
+    <dimen name="dimen_340dp">340dp</dimen>
+</resources>
