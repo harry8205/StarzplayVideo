@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.startzplayassignment.R
 import com.example.startzplayassignment.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
     private val binding: ActivityMainBinding by lazy {
         ActivityMainBinding.inflate(layoutInflater)
     }

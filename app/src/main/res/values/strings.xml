@@ -5,4 +5,7 @@
     <string name="starz_play">Starz Play</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="overview_of_the_media_item_goes_here">Overview of the media item goes here.</string>
+    <string name="media_title">Media Title</string>
 </resources>

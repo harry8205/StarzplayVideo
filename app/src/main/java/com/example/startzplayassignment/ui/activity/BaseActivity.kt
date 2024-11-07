@@ -1,6 +1,7 @@
 package com.example.startzplayassignment.ui.activity
 
 import android.app.Dialog
+import android.app.ProgressDialog
 import android.content.Context
 import android.content.Intent
 import android.graphics.Color
@@ -8,18 +9,15 @@ import android.graphics.drawable.ColorDrawable
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
-import android.os.Bundle
 import android.view.View
 import android.view.Window
 import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.startzplayassignment.R
 import java.util.Objects
 
 open class BaseActivity : AppCompatActivity() {
+    var progressDialog: ProgressDialog? = null
 
     public fun isNetworkAvailable(context: Context): Boolean {
         val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager?
@@ -68,5 +66,30 @@ open class BaseActivity : AppCompatActivity() {
         })
 
     }
+    fun showProgressDialog(context: Context) {
+        try {
+            if (progressDialog != null && progressDialog!!.isShowing) {
+                progressDialog!!.dismiss()
+            }
+            progressDialog = ProgressDialog(context, R.style.ProgressDialogTheme).apply {
+                setProgressStyle(android.R.style.Widget_ProgressBar_Small)
+
+                show()
+            }
+        } catch (ex: Exception) {
+            ex.printStackTrace()
+        }
+    }
+
+    fun dismissProgressDialog() {
+        try {
+            if (progressDialog != null && progressDialog!!.isShowing) {
+                progressDialog!!.dismiss()
+            }
+        } catch (ex: Exception) {
+            ex.printStackTrace()
+        }
+    }
+
 
 }

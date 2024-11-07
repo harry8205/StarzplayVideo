@@ -53,4 +53,13 @@ dependencies {
     // Retrofit for Networking
     implementation("com.squareup.retrofit2:retrofit:2.11.0")
     implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+    implementation ("com.squareup.okhttp3:okhttp:4.10.0")  // OkHttp latest version
+    implementation ("com.squareup.okhttp3:logging-interceptor:4.10.0")  // For logging
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    implementation ("com.squareup.picasso:picasso:2.8")
+
+    implementation ("com.github.dhaval2404:imagepicker:2.1")
+    implementation ("com.google.android.exoplayer:exoplayer:2.19.1")
+
+
 }

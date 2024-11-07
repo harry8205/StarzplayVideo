@@ -1,14 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.detail.DetailScreenFragment">
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="16dp">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ImageView
+        android:id="@+id/mediaImage"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="300dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/poster_placeholder"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="centerCrop" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/mediaTitle"
+        style="@style/heading_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="@string/media_title"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mediaOverview"
+        style="@style/sample_normal_txt_style_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/overview_of_the_media_item_goes_here" />
+
+    <Button
+        android:id="@+id/btn_play_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Play movie"/>
+</LinearLayout>

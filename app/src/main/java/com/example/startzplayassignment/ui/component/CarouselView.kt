@@ -11,12 +11,13 @@ import com.example.startzplayassignment.R
 import com.example.startzplayassignment.data.model.MediaItem
 
 class CarouselView @JvmOverloads constructor(
-    context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
+    context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0,
+    private val onClick: (MediaItem) -> Unit
 ) : LinearLayout(context, attrs, defStyleAttr) {
 
     private val titleView: TextView
     private val recyclerView: RecyclerView
-    private val adapter = MediaItemAdapter()
+    private val adapter = MediaItemAdapter(onClick)
 
     init {
         LayoutInflater.from(context).inflate(R.layout.view_carousel, this, true)
@@ -29,10 +30,10 @@ class CarouselView @JvmOverloads constructor(
     }
 
     fun setTitle(title: String) {
-        titleView.text = title
+        titleView.text = title  // Set the title (Movies or TV Shows)
     }
 
     fun setItems(items: List<MediaItem>) {
-        adapter.submitList(items)
+        adapter.submitList(items)  // Submit the list of items to the adapter
     }
 }
