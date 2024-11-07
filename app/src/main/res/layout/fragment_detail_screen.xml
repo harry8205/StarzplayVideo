@@ -35,13 +35,17 @@
         android:layout_marginBottom="16dp"
         android:text="@string/overview_of_the_media_item_goes_here" />
 
-    <Button
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_play_movie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/white"
+        android:paddingEnd="@dimen/dimen_10dp"
+        android:paddingStart="@dimen/dimen_10dp"
         android:backgroundTint="@color/white"
         android:layout_marginTop="@dimen/dimen_20dp"
+        android:textAllCaps="false"
         android:layout_gravity="center_horizontal"
-        android:text="Play movie"/>
+        android:text="Play Movie"/>
 </LinearLayout>
